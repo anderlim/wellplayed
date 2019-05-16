@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>WELL PLAYED</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link href="https://fonts.googleapis.com/css?family=Monoton|Orbitron|Press+Start+2P|Shadows+Into+Light|Yanone+Kaffeesatz" rel="stylesheet">
+	</head>
+	<body>
+		<header id="topo">
+			<img src="img/banner.jpg" alt="Imagem que mostra alguns jogos famosos"/>
+		</header>
+		<nav>
+			<a class="amenu" href="#">HOME</a>
+			<a class="amenu" href="#pag_rank">RANKING</a>
+			<a class="amenu" href="#pag_lanc">LANÇAMENTOS</a>
+			<a class="amenu" href="#pag_crit">CRÍTICAS</a>
+			<a class="amenu" href="assinante.html">ASSINANTES</a>
+			<a class="amenu" href="#">VÍDEO</a>
+		</nav>
+	<section id="pag-ass">
+			<h1 >Well Played</h1>
+			<p>Se inscreva, para ter mais informações únicas</p>
+			<h2>Assinantes</h2>
+			<form name="" method="" action="">
+					<p><label for="nome">Nome</label>
+					<input type="text" name="nome" id="in-nome" maxlength="50" autofocus required /></p>
+
+					<p><label for="email">E-mail</label>
+					<input type="email" name="email" id="email" />
+
+					<label for="data">Data</label>
+					<input type="date" name="data" id="data" /></p>
+
+					<p><label for="telefone">Telefone</label>
+					<input type="tel" name="telefone" id="telefone" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" />
+
+					<label for="idade">Idade</label>
+					<input type="number" name="idade" id="idade" min="0" max="120" step="1" /></p>
+
+					<p><label for="end">Endereço</label>
+						<input type="text" name="end" id="end" />
+
+						<label for="uf">UF</label>
+						<select name="uf" id="uf">
+							<option value="ba">BA</option>
+							<option value="df">DF</option>
+							<option value="sp">SP</option>
+						</select>
+					</p>
+					<p><label for="login">Login</label>
+						<input type="text" name="login" id="login" />
+
+						<label for="senha">Senha</label>
+						<input type="password" name="senha" id="senha" />
+					</p>
+						<fieldset>
+						<legend>Sexo: </legend>	
+						<input type="radio" name="sexo" id="masc" value="masc" />
+						<label for="masc">Masculino</label>
+						<br />
+						<input type="radio" name="sexo" id="fem" value="fem" />
+						<label for="fem">Feminino</label>
+					</fieldset> 
+
+					<fieldset>
+						<legend>Assuntos: </legend>
+						<input type="checkbox" name="assunto" id="promo" value="promo" />
+						<label for="promo">Promoções</label>
+						<br />
+						<input type="checkbox" name="assunto" id="novidade" value="novidades" />
+						<label for="novidade">Novidades</label>
+						<br />
+						<input type="checkbox" name="assunto" id="parceria" value="parceria" />
+						<label for="parceria">Parcerias</label>
+					</fieldset>
+
+					<p><label for="msg">Mensagem</label></p>
+					<p><textarea name="msg" id="msg" cols="50" rows="5"></textarea></p>
+
+					<input type="submit" name="enviar"  value="ENVIAR" />
+					<input type="reset" name="cancelar" value="CANCELAR" />
+				</form>
+			</section>
+			<a href="#topo"><img src="img/seta.gif" id="img-topo" alt="botão para o topo"></a>
+			<footer>
+				<hr>
+				<p id="pfooter">Desenvolvido por <a href="https://www.facebook.com/anderson.antunes.3720" target="_blank">Anderson Antunes</a>-2019</p>
+			</footer>
+	</body>
+</html>
